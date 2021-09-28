@@ -1,0 +1,97 @@
+/* Sfondo sito */
+
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+  margin-left:19%;
+  margin-right: 19%;
+  padding-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sfondo semi trasparente */
+
+.sfondo{
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding-top: 8%;
+  padding-left :10%;
+  padding-right: 11%;
+  padding-bottom: 11%;
+}
+
+/* Logo */
+
+.logo{
+  width: 25%;
+  padding-left: 38%;
+}
+
+.titolo{
+  text-align: center;
+  font-size: 200%;
+  color: lime;
+  margin: 0;
+}
+
+/* Menù comandi */
+
+.barra{
+  background-color: lime;
+  padding: 10px;
+}
+
+.bottone{
+  margin-left:32%;
+}
+
+/* Info Scooters */
+
+main{
+  color:white;
+  text-align: left;
+}
+
+.scooter1 > h2, .scooter2 > h2, .scooter3 > h2{
+  display:inline-block;
+  margin-bottom: 0;
+  margin-top: 28px;
+  font-size: 20px;
+}
+
+p{
+  margin:0;
+}
+
+.freccia:before {
+ content: "\21A3";
+}
+
+/* Info batterie */
+
+.carica{
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom:0;
+}
+
+/* Info batteria 1 */
+
+.scooter1 > .carica{
+  background: #e3a21a;
+  width: 32%;
+}
+
+/* Info batteria 2 */
+
+.scooter2 > .carica{
+  background: #00a300;
+  width: 60%;
+}
+
+/* Info batteria 3 */
+
+.scooter3 > .carica{
+  background: #c94c4c;
+  width: 12%;
+}
